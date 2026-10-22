@@ -6,25 +6,25 @@ cask "radosgw-assume" do
     end
   end
 
-  version "2.0.2"
+  version "2.0.3"
 
   on_macos do
     on_arm do
-      sha256 "3836bd7e848a71196f5cefe8f334094689611446fd32809100fdef73a464d07e"
+      sha256 "b3c07e7ff3f6b5aa98e19f0c3cbb26e276ea6bd0f525253e63347f62416bee41"
       url "https://github.com/fitbeard/radosgw-assume/releases/download/v#{version}/radosgw-assume-v#{version}-darwin-arm64.tar.gz"
     end
     on_intel do
-      sha256 "56eea6d1c0a54aab36210ef28d7f07d2d13b373edd937a8144ec1c59865b52af"
+      sha256 "83748c6e78fbbaff470862ec13f6f1e84a1737a61d18be9b1358e7e8f175a7ce"
       url "https://github.com/fitbeard/radosgw-assume/releases/download/v#{version}/radosgw-assume-v#{version}-darwin-amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5b632e916a8ee6b11cb72c64023b391fdb2cfbc16d67b0f95e534fe658ac1e93"
+      sha256 "0dfed423d5a8a57b9ac0e5ea66dd5c92652dabe35fd788dbe4fcc8e34bae6f0b"
       url "https://github.com/fitbeard/radosgw-assume/releases/download/v#{version}/radosgw-assume-v#{version}-linux-arm64.tar.gz"
     end
     on_intel do
-      sha256 "cedd5682a3bc7a2de4d17325647b2c59ee67b54b26305cc826cb3f8e3dd1b51f"
+      sha256 "196c015b47532a246fe2c421bd8c1941e7196ca3cd5a961c964b16dafd2aefcc"
       url "https://github.com/fitbeard/radosgw-assume/releases/download/v#{version}/radosgw-assume-v#{version}-linux-amd64.tar.gz"
     end
   end
